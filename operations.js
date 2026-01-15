@@ -14,11 +14,10 @@ function multiply(a, b) {
 
 function divide(a, b) {
     if (b === 0) {
-        return "Erreur: division par zéro";
+        return "Erreur: division par zéro c'est pas possiiible";
     }
     return a / b;
 }
-
 function power(a, b) {
 return Math.pow(a, b);
 }
